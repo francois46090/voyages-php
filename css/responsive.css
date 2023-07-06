@@ -1,0 +1,45 @@
+
+@media all and (max-width:767px){
+
+    .hidden {display: none!important;}
+    .display-mobile{display: block!important;}
+
+    .contact-action{flex-direction:column;}
+
+    #populaires .presentation p, #activites .presentation p {margin: 1.5em 0;}
+    #populaires p, #activites p {padding:0 0.4em;}
+
+    #activites h5{font-size:0.8em;}
+    #activites span {font-size: 0.8em;}
+
+    h3{font-size:2em;}
+    form{margin:0;}
+    #caroussel {top: 0;}
+    #populaires h4, #activites h4,#galerie h4,#action h4 {
+        margin-left: 0em;text-align:center}
+
+    #populaires h4::before{left:0;width:15%}
+    #activites h4::before,#galerie h4::before,#action h4::before {left: 10%;width: 15%}
+    .carousel-inner{height:57vh;}
+
+
+    a.nav-link {color: #101F46;}
+    a.nav-link:hover{color:#f56960;}   
+    
+    #page-titre h1{font-size:2em;padding:1.5em;}
+    #page-contact{margin-top:0;}
+
+ }
+
+ /*@media all  and (min-width:768px) and (max-width:1024px){
+    body{background:red;}
+ }
+
+ @media all and (orientation:landscape){
+    body{background:yellow;}
+ }
+
+ @media all and (max-width:768px) and (orientation:landscape){
+    body{background:green;}
+    
+ }*/
